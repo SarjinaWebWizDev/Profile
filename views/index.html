@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0a0f29, #1c2541);
+        }
+
+        .container {
+            width: 420px;
+            background: #f8f8f8;
+            padding: 30px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 5px solid #b59f5b;
+        }
+
+        h2 {
+            color: #b59f5b;
+            font-weight: 600;
+        }
+
+        h1 {
+            color: #2b2b2b;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #b59f5b;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 5px 15px rgba(181, 159, 91, 0.3);
+        }
+
+        .btn:hover {
+            background: #8f7e42;
+            box-shadow: 0 8px 20px rgba(181, 159, 91, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>EXP 1 : EC2</h2>
+        <img src="/profile pic.jpg" alt="Profile" class="profile-img">
+        <h1>Sarjina Shaikh</h1>
+        <a href="/skills" class="btn">View My Skills</a>
+    </div>
+</body>
+</html>
