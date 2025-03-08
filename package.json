@@ -1,22 +1,14 @@
 {
-  "name": "express-",
+  "name": "profile",
   "version": "1.0.0",
-  "description": "",
-  "main": "App.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SarjinaWebWizDev/Express-.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SarjinaWebWizDev/Express-/issues"
-  },
-  "homepage": "https://github.com/SarjinaWebWizDev/Express-#readme",
+  "description": "",
   "dependencies": {
     "express": "^4.21.2"
   }
